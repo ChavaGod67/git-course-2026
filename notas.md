@@ -10,9 +10,9 @@ sirve para movernos entre branchs y commits
 - git switch "rama" : cambiar de rama
 
 ## git push
-Por default git pus sube los cambios de nuestro upstream branch la cual es la branch default para sincronizar cambios.
+Por default git push sube los cambios de nuestro upstream branch la cual es la branch default para sincronizar cambios (Main).
 sube los cambios al repositorio en la nube
-- git push <remote> <branch> : Sube cambios de nuestro branch al servidor
+- git push "remote" "branch" : Sube cambios de nuestro branch al servidor
 
 ## git add
 - git add . : Añadir todo los archivos cambiados a staging. Incluyendo archivos nuevos
