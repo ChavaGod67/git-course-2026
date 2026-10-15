@@ -14,6 +14,12 @@ Por default git push sube los cambios de nuestro upstream branch la cual es la b
 sube los cambios al repositorio en la nube
 - git push "remote" "branch" : Sube cambios de nuestro branch al servidor
 
+si cambiamos la brannch upstream podremos pushear nuestros cambioa sin especificar la rama todo el tiempo.
+
+-git push -u origin "branch" 
+
+
+
 ## git add
 - git add . : Añadir todo los archivos cambiados a staging. Incluyendo archivos nuevos
 - git add -u : Añade solo los archivos cambiados al area de staging (Ignora archivos nuevos que no esten subidos)
@@ -27,3 +33,8 @@ Guarda los cambios del staging area
     git add -u
     git commit -m "comentario"
     ...
+
+## Glosario
+- remote: server a los cuales subir cambios
+- origin : server default para subir los cambios.
+- upstream : Esta es la branch predefinida para subir los cambios.
