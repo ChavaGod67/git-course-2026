@@ -20,6 +20,7 @@ si cambiamos la brannch upstream podremos pushear nuestros cambioa sin especific
 
 
 
+
 ## git add
 - git add . : Añadir todo los archivos cambiados a staging. Incluyendo archivos nuevos
 - git add -u : Añade solo los archivos cambiados al area de staging (Ignora archivos nuevos que no esten subidos)
