@@ -12,12 +12,15 @@ sirve para movernos entre branchs y commits
 ## git push
 Por default git push sube los cambios de nuestro upstream branch la cual es la branch default para sincronizar cambios (Main).
 sube los cambios al repositorio en la nube
+
 - git push "remote" "branch" : Sube cambios de nuestro branch al servidor
 
-si cambiamos la brannch upstream podremos pushear nuestros cambioa sin especificar la rama todo el tiempo.
+Si cambiamos la brannch upstream podremos pushear nuestros cambioa sin especificar la rama todo el tiempo.
 
 -git push -u origin "branch" 
 
+Como respuesta dira que se establecio nuestra branch como la upstream, puede configurarse desde github para que ciertos usuarios
+puedan administrar o no distintas branch, incluida main.
 
 
 
