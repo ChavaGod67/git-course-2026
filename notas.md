@@ -19,9 +19,10 @@ Si cambiamos la brannch upstream podremos pushear nuestros cambioa sin especific
 
 -git push -u origin "branch" 
 
+-u es igual a "--set upstream"
+
 Como respuesta dira que se establecio nuestra branch como la upstream, puede configurarse desde github para que ciertos usuarios
 puedan administrar o no distintas branch, incluida main.
-
 
 
 ## git add
