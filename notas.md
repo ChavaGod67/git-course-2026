@@ -24,6 +24,9 @@ Si cambiamos la brannch upstream podremos pushear nuestros cambioa sin especific
 Como respuesta dira que se establecio nuestra branch como la upstream, puede configurarse desde github para que ciertos usuarios
 puedan administrar o no distintas branch, incluida main.
 
+## git clone
+- git clone url de repositorio
+Crear una carpeta con el noombre del repo y colar el repositorio ahi
 
 ## git add
 - git add . : Añadir todo los archivos cambiados a staging. Incluyendo archivos nuevos
@@ -43,3 +46,7 @@ Guarda los cambios del staging area
 - remote: server a los cuales subir cambios
 - origin : server default para subir los cambios.
 - upstream : Esta es la branch predefinida para subir los cambios.
+
+## cambios
+Al cambiar la offstream 
+prueba upstream
